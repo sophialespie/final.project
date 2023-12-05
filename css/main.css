@@ -1,86 +1,147 @@
-/* Place CSS styles here */
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+    font-size: larger;
   }
   
   header {
-    background-color: #111;
+    background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
     position: relative;
   }
+  
   .social-media-link {
     position: absolute;
     top: 10px;
     right: 10px;
   }
   
-  h1 {
-    margin: 0;
-    font-size: 2.5em;
+  .social-media-link a {
+    color: white;
+    text-decoration: none;
   }
   
-  .hero-section img {
+  h1 {
+    margin: 0;
+  }
+  
+  .hero-section {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    display: flex;
+    animation: slide 8s infinite;
+  }
+  
+  .carousel img {
     width: 100%;
     height: auto;
-    display: block;
   }
-
+  
   nav {
-    background-color: #111;
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+  }
+  
+  nav h1 {
+    font-size:xx-large
   }
   
   nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    font-size:xx-large
   }
-
+  
   nav li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
   }
   
   nav a {
     text-decoration: none;
     color: white;
-    font-size: 1.2em;
-  }
-
-  .photo-carousel {
-    /* Add your styling for the photo carousel */
+    font-size: 18px; 
+    font-size:xx-large
   }
   
   .two-columns-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
   }
   
   .left-column,
   .right-column {
-    flex-basis: 48%;
+    flex-basis: 48%; 
   }
   
-  .left-column h2 {
-    font-size: 2em;
-  }
-  
-  .left-column p {
-    font-size: 1.2em;
-  }
-
-  .left-column img,
-  .right-column img {
+  .left-column img {
     width: 100%;
     height: auto;
-    display: block;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(-100%);
+    }
+    66.66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-form,
+  .search-bar,
+  .address {
+    width: 30%;
+  }
+  
+  .contact-form form,
+  .search-bar input,
+  .search-bar button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form label,
+  .search-bar label,
+  .address p {
+    margin-bottom: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
   }
