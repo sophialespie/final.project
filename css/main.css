@@ -4,10 +4,11 @@ body {
     margin: 0;
     padding: 0;
     font-size: larger;
+    color: white
   }
   
   header {
-    background-color: #333;
+    background-color: #783d87;
     color: white;
     text-align: center;
     padding: 10px;
@@ -45,9 +46,10 @@ body {
   }
   
   nav {
-    background-color: #333;
+    background-color:#783d87;
     color: white;
     text-align: center;
+    color: #ffffff
   }
   
   nav h1 {
@@ -87,6 +89,7 @@ body {
   .left-column img {
     max-width: 450px; /* Adjust the maximum width as needed */
     max-height: 450px; /* Adjust the maximum height as needed */
+    color: white
   }
   
   @keyframes slide {
@@ -111,7 +114,7 @@ body {
   }
   
   footer {
-    background-color: #333;
+    background-color:#783d87;
     color: white;
     padding: 20px 0;
   }
@@ -170,33 +173,38 @@ body {
   }
   
   .menu-images img {
-    width: 100%; /* Make images fill the container */
+    width: 100%; 
     height: auto;
-    max-width: 300px; /* Adjust the maximum width as needed */
+    max-width: 300px;
   }
   
   .menu-list {
-    max-width: 600px; /* Adjust the maximum width as needed */
+    max-width: 600px; 
   }
   
   .menu-list h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #ffffff
+    
   }
   
   .menu-list ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    color: #ffffff
   }
   
   .menu-list li {
     margin-bottom: 20px;
+    color: #ffffff
   }
   
   .menu-list h3 {
     font-size: 18px;
     margin-bottom: 5px;
+    color: #ffffff
   }
 
 
@@ -218,23 +226,24 @@ body {
   .cat-item {
     text-align: center;
     margin-bottom: 20px;
-    max-width: 300px; /* Adjust the maximum width as needed */
+    max-width: 300px; 
   }
   
   .cat-item img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Add rounded corners to the images */
+    border-radius: 8px; 
   }
   
   .cat-item h4 {
     font-size: 18px;
     margin: 10px 0;
+    color: #ffffff
   }
   
   .cat-item p {
     font-size: 14px;
-    color: #555;
+    color: #ffffff;
   }
 
 
@@ -246,18 +255,19 @@ body {
   }
   
   .rescue-links img {
-    width: 80px; /* Adjust the width as needed */
+    width: 80px; 
     height: auto;
   }
   
   .adoption-form {
     width: 60%;
-    max-width: 400px; /* Adjust the maximum width as needed */
+    max-width: 400px; 
   }
   
   .adoption-form h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: #ffffff
   }
   
   .adoption-form form {
@@ -272,8 +282,8 @@ body {
   }
   
   .adoption-form button {
-    background-color: #fff;
-    color: #333;
+    background-color: #29012b;
+    color: #ffffff;
     padding: 5px 10px;
     cursor: pointer;
     border: none;
@@ -285,32 +295,33 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #29012b;
   }
   
   .additional-information {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+   
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(221, 60, 194, 0.1);
   }
   
   h6 {
-    color: #333;
+    color: #ffffff;
     font-size: 20px;
     margin-bottom: 10px;
+    color: #ffffff
   }
   
   p {
-    color: #555;
+    color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
   }
   
   a {
-    color: #007BFF;
+    color: #ff5bcb;
     text-decoration: none;
     font-weight: bold;
   }
