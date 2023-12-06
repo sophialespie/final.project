@@ -87,8 +87,8 @@ body {
   }
   
   .left-column img {
-    max-width: 450px; /* Adjust the maximum width as needed */
-    max-height: 450px; /* Adjust the maximum height as needed */
+    max-width: 450px; 
+    max-height: 450px; 
     color: white
   }
   
@@ -151,8 +151,8 @@ body {
 
 
   .map-link {
-    display: inline-block; /* Ensures that the link behaves like a block-level element, allowing you to set width and height */
-    max-width: 20px; /* Adjust the maximum width as needed */
+    display: inline-block; 
+    max-width: 20px; 
     max-height: 20px; 
   }
 
@@ -290,7 +290,7 @@ body {
     border-radius: 4px;
   }
 
-/* start of contact */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -331,7 +331,7 @@ body {
   }
 
   @media screen and (max-width: 600px) {
-    /* Styles for screens with a width of 600 pixels or less */
+    
     .container {
       width: 100%;
     }
